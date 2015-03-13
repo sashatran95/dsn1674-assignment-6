@@ -1,0 +1,55 @@
+/*Colour Palette:
+Dark Grey Blue: #14293D
+Normal Grey Blue:#2B3E50
+*/
+html{
+	font-family: 'Contrail One', cursive;
+	box-sizing: border-box;
+}
+.body{
+	width: 320px;
+}
+
+*, *::before, *::after; {
+	box-sizing: inherit;
+
+}/*Boxes*/
+.box {
+	background-color: #14293D;
+	padding: 1em;
+}
+.box-1 {
+	position: relative;
+}
+h1 {
+	text-align: center;
+	color: white;
+}
+.box-1 h1 {
+	position: absolute;
+	bottom: 2;
+	left: 1em;
+}
+header {
+	background-color: #2B3E50;
+
+} /*Robot*/
+.robot-body{
+	width: 320px;
+	margin: 0;
+
+}
+.robot-brain{
+	width: 46px;
+
+}
+.robot-head-left{
+	width: 125px;
+	position: absolute;
+	
+}
+.robot-head-right{
+	width: 125px;
+	position: absolute;
+	
+}
